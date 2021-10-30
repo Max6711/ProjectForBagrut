@@ -175,14 +175,15 @@
         android:id="@+id/button_maps"
         android:layout_width="58dp"
         android:layout_height="58dp"
+        android:background="@drawable/custom_button"
+        android:onClick="maps"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.335"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.997"
-        app:srcCompat="@drawable/_037935_1"
-        android:background="@drawable/custom_button"/>
+        app:srcCompat="@drawable/_037935_1" />
 
     <ImageButton
         android:id="@+id/button_friends"
@@ -225,15 +226,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.58" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
