@@ -137,6 +137,7 @@
         android:layout_height="55dp"
         android:background="?android:attr/selectableItemBackground"
         android:text="Sing Up"
+        android:onClick="sing_up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

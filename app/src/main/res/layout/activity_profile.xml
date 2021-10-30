@@ -6,15 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Profile_Activity"
     android:background="@drawable/gradientbackground">
-    <ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        />
+
     <ImageButton
         android:id="@+id/button_home"
         android:layout_width="58dp"
@@ -103,7 +95,4 @@
         app:layout_constraintVertical_bias="0.038"
         app:srcCompat="@drawable/_207595_1" />
 
-
-
-    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

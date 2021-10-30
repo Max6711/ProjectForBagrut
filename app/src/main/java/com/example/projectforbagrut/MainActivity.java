@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     public void profile (View view){
 
         Intent intent=new Intent();
-        intent.setClass(this, Profile_Settings.class);
+        intent.setClass(this, Profile_Activity.class);
 
         startActivity(intent);
         finish();
@@ -41,5 +41,14 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
         finish();
+    }
+
+    public void sing_up(View view) {
+        Intent intent=new Intent();
+        intent.setClass(this, Register_Activity.class);
+
+        startActivity(intent);
+        finish();
+
     }
 }
