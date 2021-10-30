@@ -197,7 +197,6 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/_315503_1"
         android:background="@drawable/custom_button"/>
-
     <ImageButton
         android:id="@+id/button_profile"
         android:layout_width="58dp"
