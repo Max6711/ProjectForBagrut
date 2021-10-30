@@ -25,4 +25,21 @@ public class MainActivity extends AppCompatActivity {
         finish();
 
     }
+    public void profile (View view){
+
+        Intent intent=new Intent();
+        intent.setClass(this, Profile_Settings.class);
+
+        startActivity(intent);
+        finish();
+
+    }
+
+    public void forgot_password(View view) {
+        Intent intent=new Intent();
+        intent.setClass(this, Forgot_Password.class);
+
+        startActivity(intent);
+        finish();
+    }
 }

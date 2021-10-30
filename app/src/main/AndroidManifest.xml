@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectForBagrut">
-        <activity android:name=".Maps_Activity"></activity>
+        <activity android:name=".change_password"></activity>
+        <activity android:name=".Profile_Settings" />
+        <activity android:name=".Maps_Activity" />
         <activity android:name=".Chat_Activity" />
         <activity android:name=".Forgot_Password" />
         <activity android:name=".Profile_Activity" />
