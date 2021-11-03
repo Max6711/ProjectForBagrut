@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ProjectForBagrut</string>
+    <string name="title_activity_googlemaps">Map</string>
 </resources>

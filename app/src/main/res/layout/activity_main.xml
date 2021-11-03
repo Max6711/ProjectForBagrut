@@ -218,7 +218,6 @@
         android:layout_height="52dp"
         android:background="?android:attr/selectableItemBackground"
         android:text="Forgot password?"
-        android:onClick="forgot_password"
         android:textColor="@color/black"
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"

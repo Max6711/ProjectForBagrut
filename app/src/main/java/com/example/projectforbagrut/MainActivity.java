@@ -35,13 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void forgot_password(View view) {
-        Intent intent=new Intent();
-        intent.setClass(this, Forgot_Password.class);
-
-        startActivity(intent);
-        finish();
-    }
 
     public void sing_up(View view) {
         Intent intent=new Intent();
