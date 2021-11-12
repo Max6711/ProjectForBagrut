@@ -2,6 +2,7 @@ package com.example.projectforbagrut;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -40,8 +41,8 @@ private   Marker perth;
 
         mMap.addMarker(new MarkerOptions().position(S).title("sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(S));
-       // MapStyleOptions style = MapStyleOptions.loadRawResourceStyle(this, R.id.);
-       // googleMap.setMapStyle(style);
+        MapStyleOptions style = MapStyleOptions.loadRawResourceStyle(this, R.raw.j);
+        googleMap.setMapStyle(style);
 
     }
     public void Location (View view){
@@ -62,5 +63,37 @@ private   Marker perth;
         perth.remove();
         checkMarker = false;
 buttonLocationClose = view;
+    }
+
+    public void maps(View view) {
+        Intent intent=new Intent();
+        intent.setClass(this, Map_Activity.class);
+
+        startActivity(intent);
+        finish();
+
+    }
+    public void profile (View view) {
+        Intent intent=new Intent();
+      //  intent.setClass(this, .class);
+
+        startActivity(intent);
+        finish();
+
+    }
+    public void home (View view) {
+        Intent intent=new Intent();
+        intent.setClass(this, MainActivity.class);
+
+        startActivity(intent);
+        finish();
+
+    } public void friends (View view) {
+        Intent intent=new Intent();
+       // intent.setClass(this, .class);
+
+        startActivity(intent);
+        finish();
+
     }
 }

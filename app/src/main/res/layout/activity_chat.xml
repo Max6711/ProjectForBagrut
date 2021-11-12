@@ -5,31 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Chat_Activity"
-    android:background="@drawable/gradientbackground"
-    android:animateLayoutChanges="true"
-    >
+    android:background="#0020BC"
+    android:animateLayoutChanges="true">
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="408dp"
-        android:layout_height="774dp"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:src="@drawable/background_chat_input"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.957"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.979">
 
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_send24"
+            android:tint="#B34E00" />
 
     </FrameLayout>
 
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ellipse_5"
+    <EditText
+        android:id="@+id/input_massage"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:background="@drawable/background_chat_input"
+        android:hint="Type a massage"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/_61226_1" />
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.987" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

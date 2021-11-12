@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.projectforbagrut">
 
-    <uses-permission
-        android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectForBagrut">
+        <activity android:name=".Home_Activity"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -34,8 +34,6 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
-
-
         <activity android:name=".change_password" />
         <activity android:name=".Profile_Settings" />
         <activity android:name=".Chat_Activity" />

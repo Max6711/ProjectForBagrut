@@ -119,6 +119,7 @@
         android:layout_height="40dp"
         android:text="Sing In"
         android:textSize="10dp"
+        android:onClick="Sing_In"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.892"

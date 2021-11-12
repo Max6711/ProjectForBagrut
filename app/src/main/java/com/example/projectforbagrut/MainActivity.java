@@ -26,10 +26,30 @@ public class MainActivity extends AppCompatActivity {
     }
      */
 
+    public void home (View view){
+
+        Intent intent=new Intent();
+        intent.setClass(this, Home_Activity.class);
+
+        startActivity(intent);
+        finish();
+
+    }
+
     public void maps (View view){
 
         Intent intent=new Intent();
         intent.setClass(this, Map_Activity.class);
+
+        startActivity(intent);
+        finish();
+
+    }
+
+    public void friends (View view){
+
+        Intent intent=new Intent();
+        intent.setClass(this, Chat_Activity.class);
 
         startActivity(intent);
         finish();
@@ -42,10 +62,28 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
         finish();
+        super.onBackPressed();
 
     }
 
+    public void forgot_password (View view){
 
+        Intent intent=new Intent();
+        intent.setClass(this, Forgot_Password.class);
+
+        startActivity(intent);
+        finish();
+
+    }
+    public void  LogIn (View view){
+
+        Intent intent=new Intent();
+        intent.setClass(this, Home_Activity.class);
+
+        startActivity(intent);
+        finish();
+
+    }
     public void sing_up(View view) {
         Intent intent=new Intent();
         intent.setClass(this, Register_Activity.class);

@@ -1,0 +1,167 @@
+[
+	{
+		"featureType": "all",
+		"elementType": "labels.text.fill",
+		"stylers": [
+			{
+				"color": "#220303"
+			},
+			{
+				"visibility": "simplified"
+			}
+		]
+	},
+	{
+		"featureType": "all",
+		"elementType": "labels.text.stroke",
+		"stylers": [
+			{
+				"color": "#4e0707"
+			},
+			{
+				"lightness": -8
+			},
+			{
+				"visibility": "simplified"
+			}
+		]
+	},
+	{
+		"featureType": "administrative",
+		"elementType": "geometry",
+		"stylers": [
+			{
+				"weight": 0.4
+			},
+			{
+				"visibility": "on"
+			},
+			{
+				"color": "#ff6500"
+			}
+		]
+	},
+	{
+		"featureType": "administrative.country",
+		"elementType": "geometry.stroke",
+		"stylers": [
+			{
+				"weight": "1.30"
+			}
+		]
+	},
+	{
+		"featureType": "administrative.province",
+		"elementType": "all",
+		"stylers": [
+			{
+				"visibility": "off"
+			}
+		]
+	},
+	{
+		"featureType": "administrative.locality",
+		"elementType": "all",
+		"stylers": [
+			{
+				"visibility": "simplified"
+			}
+		]
+	},
+	{
+		"featureType": "landscape",
+		"elementType": "geometry",
+		"stylers": [
+			{
+				"color": "#ff862f"
+			}
+		]
+	},
+	{
+		"featureType": "poi",
+		"elementType": "geometry",
+		"stylers": [
+			{
+				"visibility": "off"
+			}
+		]
+	},
+	{
+		"featureType": "road.highway",
+		"elementType": "geometry",
+		"stylers": [
+			{
+				"color": "#f9be02"
+			}
+		]
+	},
+	{
+		"featureType": "road.highway",
+		"elementType": "labels",
+		"stylers": [
+			{
+				"visibility": "off"
+			}
+		]
+	},
+	{
+		"featureType": "road.arterial",
+		"elementType": "geometry",
+		"stylers": [
+			{
+				"color": "#f9be02"
+			}
+		]
+	},
+	{
+		"featureType": "road.local",
+		"elementType": "geometry",
+		"stylers": [
+			{
+				"color": "#f9be02"
+			}
+		]
+	},
+	{
+		"featureType": "transit",
+		"elementType": "geometry",
+		"stylers": [
+			{
+				"visibility": "off"
+			}
+		]
+	},
+	{
+		"featureType": "water",
+		"elementType": "geometry",
+		"stylers": [
+			{
+				"gamma": "1.18"
+			},
+			{
+				"saturation": "53"
+			},
+			{
+				"color": "#bcfefd"
+			}
+		]
+	},
+	{
+		"featureType": "water",
+		"elementType": "geometry.fill",
+		"stylers": [
+			{
+				"color": "#8b01ae"
+			}
+		]
+	},
+	{
+		"featureType": "water",
+		"elementType": "labels.text",
+		"stylers": [
+			{
+				"color": "#6a0000"
+			}
+		]
+	}
+]
